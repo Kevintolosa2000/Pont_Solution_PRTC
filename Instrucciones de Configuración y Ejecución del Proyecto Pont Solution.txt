@@ -30,16 +30,17 @@ Paso B: Configuración de Redis:
 0.8 - Buscamos la ruta de Redis si ya se encuentra dejar todo como esta; en caso de no encontrarla o que sea distinta, damos clic en "Nuevo" o "Modificar" y la agregamos tal cual es su carpeta (ejemplo: C:\Users\[usuario]\Desktop\Pont_Solution_PRTC\Redis-x64-5.0.14.1).
 0.9 - Damos clic en "Aceptar" en todos los botones y proseguimos.
 
-1 - Copiamos la ruta de la carpeta de Redis y abrimos una terminal.
-2 - Ejecutamos el comando: cd [nombre de la carpeta]. ejemplo cd C:\Users\[usuario]\Desktop\Pont_Solution_PRTC\Redis-x64-5.0.14.1
-
-3 - Ejecutamos el siguiente comando para iniciar el servidor Redis en tu máquina local:
-redis-server.exe.
+1 - Copiamos la ruta de la carpeta de Redis.
+2-  Ejecutamos "Visual Studio Code" y arrastramos la carpeta del proyecto dentro.
+3-  Abrimos la terminal con ctrl+J y ejecutamos el comando: cd Pont_Solution_Backend
+4 - Ejecutamos el siguiente comando para iniciar el servidor Redis en tu máquina local: 
+    redis-server.exe 
+    (Permitimos acceso en caso de que nos lo pidan).
 
 Paso C: Configuración del Backend:
 
-1- Abre una nueva terminal en la ruta de tu proyecto backend:
-2- Ejecutamos el comando: cd [nombre de la carpeta]. ejemplo: cd C:\Users\[usuario]\Desktop\Pont_Solution_PRTC\Pont_Solution_Backend.
+1- Abre una nueva terminal dandole click al "+" en la terminal:
+2- Ejecutamos el comando: cd Pont_Solution_Backend
 3- Crear el entorno virtual con el siguiente comando: python -m venv venv
 4- Activar el entorno virtual con el siguiente comando: .\venv\Scripts\activate
 5- Instalar las dependencias con los siguientes comandos:
@@ -63,12 +64,10 @@ Este comando levantará el servidor para el backend.
 
 Paso D: Configuración del Frontend (Angular):
 
-1- Abre otra terminal en la ruta de tu proyecto frontend. ejemplo:
-cd C:\Users\[usuario]\Desktop\Pont_Solution_PRTC\Pont_Solution_Frontend
-
-2-Instalar las dependencias de Angular con el comando: npm install
-
-3- Ejecutar el servidor de desarrollo con: ng serve -o
+1- Abre una nueva terminal dandole click al "+" en la terminal:
+2- Ejecutamos el comando: cd Pont_Solution_Frontend
+3- Instalar las dependencias de Angular con el comando: npm install
+4- Ejecutar el servidor de desarrollo con: ng serve -o
 
 Paso E: Ver en el Navegador el proyecto:
 
