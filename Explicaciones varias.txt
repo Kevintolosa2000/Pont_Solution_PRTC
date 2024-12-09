@@ -1,0 +1,5 @@
+Para alojar, escalar y mantener la aplicación, yo usaria AWS (Amazon Web Services) ya que es una de las plataformas más populares actualmente y probablemente lo siga siendo en el futuro. Aunque no tengo mucha experiencia, se que AWS permite escalar fácilmente las aplicaciones segun sea necesario. Ademas por lo que averigue tiene muchos servicios como EC2 para maquinas virtuales y RDS para bases de datos. Tambien AWS seria util para el manejo de seguridad a traves de AWS Secrets Manager que segun vi, esta diseñado para almacenar y manejar datos importantes de la manera mas segura posible.
+
+Me gustaria aclarar que no utilice Docker en este proyecto debido a que tuve problemas al intentar configurarlo. El progrma no funcionaba y la unica solucion que encontre era dar permisos desde la BIOS, lo cual me parecio arriesgado ya que no queria tocar algo del funcionamiento de mi PC. Por eso decidi no llevar a cabo esa solucion y optar por un entorno de desarrollo local.
+
+En cuanto al tiempo en los mensajes, esta configurado en UTC, por eso se muestra con un desfase de 3 horas, pero se puede modificar desde el archivo settings.py.
